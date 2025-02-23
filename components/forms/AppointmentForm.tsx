@@ -114,6 +114,7 @@ export const AppointmentForm = ({
          }
          const updatedAppointment = await updateAppointment(appointmentToUpdate);
          if (updatedAppointment) {
+          //@typescript-eslint/no-unused-expressions
           setOpen && setOpen(false);
           form.reset();
          }

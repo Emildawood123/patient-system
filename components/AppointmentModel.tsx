@@ -13,6 +13,7 @@ interface AppointmentModelProps {
   title: string
   description: string
 }
+//@typescript-eslint/no-unused-vars
 const AppointmentModel = ({ type, patientId, userId, appointment, title, description }: AppointmentModelProps) => {
     const [open, setOpen] = useState(false)
     return (

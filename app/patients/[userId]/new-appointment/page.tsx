@@ -7,7 +7,7 @@ const newAppointment = async ({ params: { userId } }: SearchParamProps) => {
     return (<div className="flex h-screen max-h-screen">
           <section  className="container remove-scrollbar my-auto">
             <div className="sub-container max-w-[860px] flex-1 justify-between">
-              <Image src="/assets/icons/logo-full.svg" width={1000} height={1000} className="mb-12  h-10" alt="logo w-fit" />
+          <Image src="/assets/icons/logo-full.svg" width={1000} height={1000} className="mb-12  h-10" alt="logo w-fit" />
                 <AppointmentForm userId={userId} type="create" patientId={ patient.$id } />
               <div className="text-14- mt-20 flex justify-between">
                 <p className="copyright p-12 ">© 2025 patient management system</p>

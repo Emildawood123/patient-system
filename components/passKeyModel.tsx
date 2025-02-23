@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/alert-dialog"
 import Image from "next/image"
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "./ui/input-otp"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import { usePathname, useRouter } from "next/navigation"
 import { decryptKey, encryptKey } from "@/lib/utils"
 
